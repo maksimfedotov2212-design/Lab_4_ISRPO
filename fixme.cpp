@@ -10,6 +10,9 @@ int main() {
     } else {
         std::cout << "Error: Division by zero!" << std::endl;
     }
+    int add(int a, int b) {
+        return a + b;
+    }
     int y = 2;  // Исправление: меняем 0 на 2
     int z = x / y;
     std::cout << "Result: " << z << std::endl;
